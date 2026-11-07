@@ -94,10 +94,11 @@
             box-shadow: 0 2px 0 rgba(2, 13, 25, 0.38), 0 0 14px rgba(34, 190, 255, 0.3);
         }
 
-        button:focus-visible {
-            outline: 2px solid #78eaff;
-            outline-offset: 3px;
-        }
+       button:focus,
+button:focus-visible {
+    outline: none;
+    box-shadow: none;
+}
 
         button.utility {
             color: #83eaff;
